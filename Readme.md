@@ -1,4 +1,6 @@
-# Startup core for MiSTer
+# Startup core for SoCkit
+
+Based on the work of [somhi](https://github.com/somhi) and [goofyseeker311](https://github.com/goofyseeker311), which builds on the work of [ModernHackers](https://github.com/MiSTer-Arrow-SoCKit/Main_MiSTer/wiki)
 
 * **ESC** - Back/Options
 * **Enter** - OK
@@ -9,9 +11,10 @@
 
 ## Notes:
 * Core supports sub-folders started with _ character.
-* Regardless the place of RBF file, boot rom/vhd should be placed into either root of SD card or core's dedicated folder (should be created in root of SD card).
+* Regardless the place of RBF file, boot rom/vhd should be placed into either root of SD card or core's dedicated folder (should be created in root of SD >
 * Joystick (including emulation by keyboard) buttons defined in this core is default map for all cores unless defined in particalar core.
 
 ## Wallpaper
 * Place menu.png or menu.jpg to the root of SD card to have it as background on HDMI (you can use vga_scaler=1 if you want it on VGA).
 * Create "wallpapers" folder and place multiple .jpg or .png to it. Use **F1** to cycle between standard MiSTer backgrounds and wallpapers in folder.
+
